@@ -10,7 +10,8 @@
   text-shadow: 0 0 5px brown, 0 0 10px brown, 0 0 15px brown, 0 0 20px brown;
 }
 
-button {
+.logo_discord,
+.logo_twitch {
   transition: 0.5s ease-in-out;
 }
 
@@ -19,8 +20,23 @@ button :hover {
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9d0bca, 0 0 30px #9d0bca;
 }
 
-button ::after {
+.logo_apex,
+.logo_mc,
+.live-microphone {
+  transition: 0.5s;
+}
+
+.list_1 :hover {
+  transition: 0.5s;
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9d0bca, 0 0 30px #9d0bca;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+}
+
+.list_2 :hover {
+  transition: 0.5s;
+  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9d0bca, 0 0 30px #9d0bca;
+}
+
+.list_3 :hover {
+  transition: 0.5s;
+  box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9d0bca, 0 0 30px #9d0bca;
 }
