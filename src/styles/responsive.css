@@ -6,6 +6,26 @@
     align-items: center;
   }
 
+  .logo_twitch,
+  .logo_discord {
+    display: flex;
+    justify-content: flex-end;
+    height: 26em;
+    width: 38em;
+    border-radius: 15px;
+  }
+
+  .title_link_2,
+  .title_link_1 {
+    display: flex;
+    justify-content: center;
+    color: rgb(0, 255, 204);
+    text-decoration: underline;
+    text-underline-offset: 2px;
+    padding: 0.5em;
+    font-size: 3.25em;
+  }
+
   .container_details {
     display: flex;
     flex-direction: column;
@@ -38,5 +58,28 @@
     font-size: 3rem;
     padding: 1.5rem;
     gap: 1em;
+  }
+
+  .list {
+    gap: 4em;
+  }
+
+  .logo_mc {
+    display: flex;
+    height: 6em;
+    width: 24em;
+    border-radius: 15px;
+  }
+
+  .logo_apex {
+    display: flex;
+    height: 10em;
+    border-radius: 15px;
+  }
+
+  .live-microphone {
+    display: flex;
+    height: 10em;
+    border-radius: 50%;
   }
 }
