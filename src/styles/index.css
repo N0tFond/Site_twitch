@@ -120,6 +120,7 @@ button {
   display: flex;
   height: 3em;
   width: 15em;
+  padding: 5px;
   border-radius: 15px;
 }
 
@@ -127,6 +128,7 @@ button {
   display: flex;
   height: 5em;
   border-radius: 15px;
+  padding: 5px;
 }
 
 .live-microphone {

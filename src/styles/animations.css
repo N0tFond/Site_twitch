@@ -17,6 +17,7 @@
 
 button :hover {
   transition: 0.5s;
+  transform: scale(1.1);
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px #9d0bca, 0 0 30px #9d0bca;
 }
 
@@ -24,6 +25,10 @@ button :hover {
 .logo_mc,
 .live-microphone {
   transition: 0.5s;
+}
+
+.list :hover {
+  transform: scale(1.1);
 }
 
 .list_1 :hover {
