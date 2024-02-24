@@ -1,4 +1,8 @@
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
+  .main {
+    background: "src/assets/backdroung_mobile.png";
+  }
+
   .title_site {
     display: flex;
     justify-content: center;
