@@ -1,3 +1,4 @@
+/*Neon title style*/
 .neon_title,
 .title_link_1,
 .title_link_2 {
@@ -10,17 +11,20 @@
   text-shadow: 0 0 5px rgb(0, 255, 204), 0 0 10px rgb(0, 255, 204), 0 0 20px rgb(0, 255, 204), 0 0 40px rgb(0, 255, 204);
 }
 
+/*Set transition timer and set style transition*/
 .logo_discord,
 .logo_twitch {
   transition: 0.5s ease-in-out;
 }
 
+/*Buttons hover style*/
 button :hover {
   transition: 0.5s;
   transform: scale(1.05);
   box-shadow: 0 0 2px #fff, 0 0 10px #fff, 0 0 20px rgb(0, 255, 204), 0 0 30px rgb(0, 225, 255);
 }
 
+/*Set transition timer */
 .logo_apex {
   transition: 0.5s;
 }
@@ -33,6 +37,7 @@ button :hover {
   transition: 0.5s;
 }
 
+/*Hover style, transition, transform and box shadows*/
 .list :hover {
   transform: scale(1.05);
 }

@@ -1,23 +1,22 @@
+/*Reset all and define font*/
 * {
   margin: 0;
   padding: 0;
   font-family: "IBM Plex Mono";
 }
 
-#parent_site {
-  background-image: url("background_desktop.png");
-  background-size: cover;
-}
-
-.main {
-  display: flex;
-  overflow: hidden;
-}
-
+/* Disable scrollbar */
 ::-webkit-scrollbar {
   display: none;
 }
 
+/* Style Body*/
+
 body {
+  display: flex;
+  background-size: 100%;
+  background-image: url("background_desktop.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   user-select: none;
 }
