@@ -5,6 +5,11 @@
     font-size: 2.5em;
   }
 
+  #parent_site {
+    background-image: url("background_mobile.png");
+    background-size: cover;
+  }
+
   .parent_site,
   .container_details {
     display: flex;
