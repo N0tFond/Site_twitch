@@ -145,6 +145,46 @@ button {
   border-radius: 50%;
 }
 
+/*Style Stats for nerds*/
+#stats {
+  display: flex;
+  flex-direction: column;
+}
+
+.title_stats {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin: 1rem 0 0 0;
+}
+
+.stats_nerds {
+  display: flex;
+  justify-content: center;
+  padding: 2.5em;
+}
+
+.stats_explications {
+  display: flex;
+  flex-direction: column;
+}
+
+.details_stats {
+  display: flex;
+
+  color: rgb(255, 255, 255);
+  font-size: 1.55rem;
+  width: fit-content;
+}
+.first_child {
+  display: flex;
+  width: 30rem;
+}
+
 /*Footer style*/
 footer {
   display: flex;

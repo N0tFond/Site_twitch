@@ -11,9 +11,7 @@
 }
 
 /* Style Body*/
-
 body {
-  display: flex;
   background-size: 100%;
   background-image: url("background_desktop.png");
   background-size: cover;
