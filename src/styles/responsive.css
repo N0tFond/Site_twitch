@@ -1,17 +1,14 @@
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-  .main {
-    background: "src/assets/backdroung_mobile.png";
+  #parent_site {
+    background-image: url("background_mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .title_site {
     display: flex;
     justify-content: center;
     font-size: 2.5em;
-  }
-
-  #parent_site {
-    background-image: url("background_mobile.png");
-    background-size: cover;
   }
 
   .parent_site,
@@ -97,5 +94,71 @@
     display: flex;
     height: 10em;
     border-radius: 50%;
+  }
+
+  #stats {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title_stats {
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    padding: 4rem 0 2rem 2rem;
+  }
+
+  .stats_explications {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 55em;
+    padding: 2.5em;
+  }
+
+  .first_child {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    font-weight: 500;
+  }
+
+  .title_config_pc {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 1rem 0 0 0;
+    padding: 1.7rem;
+  }
+
+  .listing_composant_pc {
+    font-weight: 550;
+  }
+
+  /*Footer style*/
+  footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1.75rem 0.5rem 0.5rem 0;
+  }
+
+  .developped_by {
+    display: flex;
+    color: rgb(6, 178, 172);
+    font-size: 1.5rem;
+    gap: 5px;
+  }
+
+  .developped_by span {
+    color: rgb(249, 0, 0);
   }
 }
