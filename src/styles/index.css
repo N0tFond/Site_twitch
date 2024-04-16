@@ -4,7 +4,7 @@
   justify-content: center;
   padding: 1em;
   font-size: 2em;
-  text-decoration: underline rgb(106, 241, 214);
+  text-decoration: underline rgb(94, 230, 202);
   text-underline-offset: 10px;
 }
 
@@ -87,6 +87,7 @@ button {
   font-size: 1.8rem;
   text-decoration: underline;
   text-underline-offset: 5.5px;
+  font-weight: bolder;
   padding: 0 0 1.75rem 0;
   margin: 1rem 0 0 0;
 }
@@ -100,7 +101,7 @@ button {
   display: flex;
   flex-direction: column;
   width: fit-content;
-  color: bisque;
+  color: rgb(255, 255, 255);
   font-size: 1.55rem;
   padding: 1.5rem;
 }
