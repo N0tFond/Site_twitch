@@ -81,6 +81,7 @@
     display: flex;
     height: 6em;
     width: 24em;
+    padding-top: 1em;
     border-radius: 15px;
   }
 
@@ -132,7 +133,7 @@
     display: flex;
     justify-content: flex-start;
     color: rgb(255, 255, 255);
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
     text-decoration: underline;
     text-underline-offset: 3px;
@@ -141,7 +142,40 @@
   }
 
   .listing_composant_pc {
-    font-weight: 550;
+    font-weight: 500;
+  }
+
+  #playlist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .playlist {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  .title_playlist {
+    display: flex;
+    justify-content: flex-start;
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    margin: 1rem 0 0 0;
+    padding: 1rem 2.5rem 3rem 2rem;
+  }
+
+  .link_playlist {
+    background: none;
+    border: none;
+  }
+
+  .img_playlist {
+    width: 45rem;
+    border-radius: 15px;
   }
 
   /*Footer style*/

@@ -129,7 +129,7 @@ button {
   display: flex;
   height: 3em;
   width: 15em;
-  padding: 5px;
+  padding: 15px;
   border-radius: 15px;
 }
 
@@ -207,6 +207,36 @@ button {
 li {
   padding: 1rem 0 1rem 0;
   font-weight: 550;
+}
+
+/*Playlist Style*/
+.playlist {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.title_playlist {
+  display: flex;
+  justify-content: flex-start;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  margin: 1rem 0 0 0;
+  padding: 0 5rem 3rem 5rem;
+}
+
+.link_playlist {
+  background: none;
+  border: none;
+  border-radius: 50%;
+}
+
+.img_playlist {
+  width: 30rem;
+  border-radius: 15px;
 }
 
 /*Footer style*/
